@@ -27,4 +27,5 @@ class Test(unittest.TestCase):
         self.assertEqual(earliest_ancestor(test_ancestors, 11), -1)
 
 if __name__ == '__main__':
+    print("starting")
     unittest.main()
